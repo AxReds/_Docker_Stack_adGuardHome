@@ -30,7 +30,7 @@ version: "2"
 services:
   adguardhome:
     image: adguard/adguardhome:latest
-    container_name: theRedsGuard
+    container_name: NAME_OF_THE_CONTAINER
     ports:
       - 3000:3000/tcp
       - 53:53/tcp
